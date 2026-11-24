@@ -67,7 +67,7 @@ import org.slf4j.LoggerFactory;
  */
 @PluginDescriptor(
 	name = "Yellow Click Fix",
-	description = "Detects left clicks on NPCs that were incorrectly dispatched as Walk here",
+	description = "Detects and rescues left clicks on NPCs that were incorrectly dispatched as Walk here",
 	tags = {"click", "walk", "menu", "npc", "stale", "yellow"}
 )
 public class YellowClickFixPlugin extends Plugin
