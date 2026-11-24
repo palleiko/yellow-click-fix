@@ -45,7 +45,7 @@ public interface YellowClickFixConfig extends Config
 
 	@ConfigItem(
 		keyName = "chatFeedback",
-		name = "Chat Debug feedback",
+		name = "Chat debug feedback",
 		description = "Print a debug game message for every stale click that is detected.",
 		position = 1
 	)
