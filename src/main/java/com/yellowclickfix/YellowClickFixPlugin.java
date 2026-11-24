@@ -234,7 +234,7 @@ public class YellowClickFixPlugin extends Plugin
 			first.getName(), first.getIndex(),
 			npcs.size() > 1 ? " and " + (npcs.size() - 1) + " more" : "",
 			mouse.getX(), mouse.getY(), age, outcome);
-		log.info("[YellowClickFix] {}", message);
+		log.debug("[YellowClickFix] {}", message);
 		if (config.chatFeedback())
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[YellowClickFix] " + message, null);
