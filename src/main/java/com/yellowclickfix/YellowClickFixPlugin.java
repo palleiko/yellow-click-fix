@@ -257,7 +257,7 @@ public class YellowClickFixPlugin extends Plugin
 
 	/**
 	 * Finds the NPCs whose clickbox contains the point. Perspective.getClickbox rebuilds the shape
-	 * the client's own hover test uses, so this matches what the client would have picked had it 
+	 * the client's own hover test uses, so this matches what the client would have picked had it
 	 * tested the click position. It's only used as a check to determine if the click was on a
 	 * stale menu entry; which entry actually fires is decided by the client's own menu one client
 	 * cycle later.
