@@ -12,6 +12,7 @@ through an NPC instead of the intended "Attack".
 ---
 
 ![Plugin options](img/plugin-panel.png)
+
 The plugin offers two togglable settings:
 * Rescue stale clicks
   * Attempt to wait a client cycle for NPC menu options to populate before sending the click
