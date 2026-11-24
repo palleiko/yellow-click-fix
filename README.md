@@ -1,5 +1,5 @@
 # Yellow Click Fix
-A RuneLite plugin to aid in the Jagex's "yellow click" issue which is inherent
+A RuneLite plugin to aid in Jagex's "yellow click" issue which is inherent
 to their client. This issue often happens when one is moving their cursor
 quickly between two locations which have different menu options. For example,
 from the ground to an NPC they want to attack. If the click arrives less than
